@@ -1,3 +1,11 @@
+if damage_flash_timer > 0 {
+    damage_flash_timer -= 1;
+
+    if (damage_flash_timer <= 0) {
+        image_blend = c_white; // or c_lime or whatever the original color is
+    }
+}
+
 var rightKey = keyboard_check(ord("D"));
 var leftKey = keyboard_check(ord("A"));
 var upKey = keyboard_check(ord("W"));
