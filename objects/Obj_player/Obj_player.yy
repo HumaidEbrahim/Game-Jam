@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player1_1",
-    "path":"sprites/spr_player1_1/spr_player1_1.yy",
+    "name":"IdleForward",
+    "path":"sprites/IdleForward/IdleForward.yy",
   },
   "spriteMaskId":null,
   "visible":true,

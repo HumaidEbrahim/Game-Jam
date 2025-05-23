@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Enemy",
+  "%Name":"Object_wall_solid",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_bullet","path":"objects/Obj_bullet/Obj_bullet.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Enemy",
+  "name":"Object_wall_solid",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_wall",
+    "path":"objects/Obj_wall/Obj_wall.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite20",
+    "path":"sprites/Sprite20/Sprite20.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
