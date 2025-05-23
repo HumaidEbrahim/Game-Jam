@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_serverEnemy",
+  "%Name":"Obj_enemy_serverenemy_enemy1",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_serverEnemy",
+  "name":"Obj_enemy_serverenemy_enemy1",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"Obj_Enemy",
-    "path":"objects/Obj_Enemy/Obj_Enemy.yy",
+    "name":"Obj_enemy_serverenemy",
+    "path":"objects/Obj_enemy_serverenemy/Obj_enemy_serverenemy.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -32,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_enemy2",
+    "path":"sprites/spr_enemy2/spr_enemy2.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

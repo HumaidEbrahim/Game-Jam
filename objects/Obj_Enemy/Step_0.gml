@@ -21,10 +21,10 @@ xSpeed = lengthdir_x(moveSpd, moveDir)
 ySpeed = lengthdir_y(moveSpd, moveDir)
 
 
-if place_meeting(x + xSpeed, y, Obj_wall) || place_meeting(x + xSpeed, y, Obj_playerEnemy){
+if place_meeting(x + xSpeed, y, Obj_wall) || place_meeting(x + xSpeed, y, Obj_enemy_playerenemy){
 	xSpeed = 0;
 }
-if place_meeting(x, y + ySpeed, Obj_wall)|| place_meeting(x + xSpeed, y, Obj_playerEnemy){
+if place_meeting(x, y + ySpeed, Obj_wall)|| place_meeting(x + xSpeed, y, Obj_enemy_playerenemy){
 	ySpeed = 0;
 }
 
