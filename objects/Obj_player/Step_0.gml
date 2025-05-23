@@ -21,6 +21,13 @@ var downKey = keyboard_check(ord("S"));
 	if place_meeting(x, y + ySpeed, Obj_wall){
 			ySpeed = 0;
 		}
+		
+	if place_meeting(x + xSpeed, y, Obj_Server){
+	xSpeed = 0;
+	}
+	if place_meeting(x, y + ySpeed, Obj_Server){
+		ySpeed = 0;
+	}
 	
 	x += xSpeed;
 	y += ySpeed;
