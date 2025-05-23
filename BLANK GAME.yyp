@@ -35,6 +35,7 @@
   },
   "name":"BLANK GAME",
   "resources":[
+    {"id":{"name":"Obj_Enemy","path":"objects/Obj_Enemy/Obj_Enemy.yy",},},
     {"id":{"name":"Obj_enemy1","path":"objects/Obj_enemy1/Obj_enemy1.yy",},},
     {"id":{"name":"Obj_enemy2","path":"objects/Obj_enemy2/Obj_enemy2.yy",},},
     {"id":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},},
