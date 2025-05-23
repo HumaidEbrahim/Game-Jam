@@ -1,18 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_player",
+  "%Name":"Obj_bullet_weapon1",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_player",
+  "name":"Obj_bullet_weapon1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Bullets",
+    "path":"folders/Objects/Bullets.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_bullet_1",
+    "path":"objects/Obj_bullet_1/Obj_bullet_1.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player1_1",
-    "path":"sprites/spr_player1_1/spr_player1_1.yy",
+    "name":"weapon1Bullet_1",
+    "path":"sprites/weapon1Bullet_1/weapon1Bullet_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
