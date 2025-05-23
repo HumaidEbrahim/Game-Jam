@@ -1,16 +1,10 @@
-if damage_flash_timer > 0 {
-    damage_flash_timer -= 1;
-
-    if (damage_flash_timer <= 0) {
-        image_blend = c_white; // or c_lime or whatever the original color is
-    }
-}
-
 var rightKey = keyboard_check(ord("D"));
 var leftKey = keyboard_check(ord("A"));
 var upKey = keyboard_check(ord("W"));
 var downKey = keyboard_check(ord("S"));
-
+equipKey = keyboard_check(ord("E"));
+currentWeapon.image_index = 0;
+#region
 	var _horizontal = rightKey - leftKey;
 	var _vertical = downKey - upKey;
 	moveDir = point_direction(0,0, _horizontal, _vertical);
@@ -29,13 +23,36 @@ var downKey = keyboard_check(ord("S"));
 	if place_meeting(x, y + ySpeed, Obj_wall){
 			ySpeed = 0;
 		}
-		
-	if place_meeting(x + xSpeed, y, Obj_Server){
-	xSpeed = 0;
-	}
-	if place_meeting(x, y + ySpeed, Obj_Server){
-		ySpeed = 0;
-	}
 	
 	x += xSpeed;
 	y += ySpeed;
+
+aimDir = mouseTrack();
+centerY = y + global.centerYOffset
+#endregion
+
+#region
+face = round(aimDir/90);
+if face == 4 
+{
+	face = 0
+};
+if xSpeed == 0 && ySpeed == 0
+{
+	if face == 0 {
+		sprite_index = sprite[4];
+	}
+    else if face == 1{
+	    sprite_index = sprite[5];
+	}
+	else if face == 2{
+		sprite_index = sprite[6];
+	}
+	else if face == 3{
+		sprite_index = sprite[7];
+	}
+}
+else{
+sprite_index = sprite[face]	
+}
+#endregion
