@@ -12,8 +12,8 @@
     "path":"folders/Objects/Bullets.yy",
   },
   "parentObjectId":{
-    "name":"Obj_bullet_1",
-    "path":"objects/Obj_bullet_1/Obj_bullet_1.yy",
+    "name":"Obj_bullet",
+    "path":"objects/Obj_bullet/Obj_bullet.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
