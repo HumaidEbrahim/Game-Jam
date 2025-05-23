@@ -21,15 +21,28 @@ xSpeed = lengthdir_x(moveSpd, moveDir)
 ySpeed = lengthdir_y(moveSpd, moveDir)
 
 
-if place_meeting(x + xSpeed, y, Obj_wall) || place_meeting(x + xSpeed, y, Obj_Enemy){
+if place_meeting(x + xSpeed, y, Obj_wall) || place_meeting(x + xSpeed, y, Obj_enemy_playerenemy){
+	show_debug_message("THE zombie IS TOUCHING THE WALL")
 	xSpeed = 0;
 }
-if place_meeting(x, y + ySpeed, Obj_wall)|| place_meeting(x + xSpeed, y, Obj_Enemy){
+if place_meeting(x, y + ySpeed, Obj_wall)|| place_meeting(x , y+ ySpeed, Obj_enemy_playerenemy){
 	ySpeed = 0;
+	show_debug_message("THE zombie IS TOUCHING THE WALL")
 }
+
+/*
+if place_meeting(x + xSpeed, y, Obj_Server){
+	xSpeed = 0;
+}
+if place_meeting(x, y + ySpeed, Obj_Server){
+	ySpeed = 0;
+	
+}
+*/
+
+
+
 
 //movement
 x += xSpeed
 y += ySpeed
-
-
