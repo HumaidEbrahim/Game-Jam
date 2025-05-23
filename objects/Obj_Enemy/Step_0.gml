@@ -4,16 +4,16 @@ if damage_flash_timer > 0 {
 
     if (damage_flash_timer <= 0) {
         image_blend = c_white; // or c_lime or whatever the original color is
+		
     }
 }
+
 
 //death
 if hp <= 0
 {
 	instance_destroy()
 }
-
-
 
 
 //speed
