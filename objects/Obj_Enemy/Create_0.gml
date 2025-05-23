@@ -5,3 +5,5 @@ xSpeed = 0
 ySpeed = 0
 moveDir = 0
 damage_flash_timer = 0;
+damage = 0
+

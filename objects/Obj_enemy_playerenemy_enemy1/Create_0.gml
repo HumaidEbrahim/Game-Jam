@@ -2,4 +2,5 @@
 event_inherited();
 
 hp = +8
+damage = +2
 
