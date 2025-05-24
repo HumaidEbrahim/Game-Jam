@@ -1,10 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"Obj_weapon_shotgun",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"Obj_weapon_shotgun",
   "overriddenProperties":[],
@@ -12,10 +9,7 @@
     "name":"Weapons",
     "path":"folders/Objects/Weapons.yy",
   },
-  "parentObjectId":{
-    "name":"Obj_weapon",
-    "path":"objects/Obj_weapon/Obj_weapon.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Shotgun",
-    "path":"sprites/Shotgun/Shotgun.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

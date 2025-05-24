@@ -4,7 +4,6 @@ var upKey = keyboard_check(ord("W"));
 var downKey = keyboard_check(ord("S"));
 equipKey = keyboard_check_pressed(ord("E"));
 currentWeapon.image_index = 0;
-mask_index = sprite[7];
 
 
 if hp > global.maxHp{
@@ -33,14 +32,6 @@ if (hp <= 0){
 	if place_meeting(x, y + ySpeed, Obj_wall){
 			ySpeed = 0;
 		}
-		
-	if damage_flash_timer >= 0 {
-    damage_flash_timer -= 1;
-
-    if (damage_flash_timer <= 0) {
-        image_blend = c_white; // or c_lime or whatever the original color is
-		 }
-}
 	
 	x += xSpeed;
 	y += ySpeed;
