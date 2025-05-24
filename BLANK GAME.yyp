@@ -56,6 +56,7 @@
     {"id":{"name":"Obj_enemy_serverenemy","path":"objects/Obj_enemy_serverenemy/Obj_enemy_serverenemy.yy",},},
     {"id":{"name":"Obj_enemy_serverFlyingEnemy","path":"objects/Obj_enemy_serverFlyingEnemy/Obj_enemy_serverFlyingEnemy.yy",},},
     {"id":{"name":"Obj_Enemy","path":"objects/Obj_Enemy/Obj_Enemy.yy",},},
+    {"id":{"name":"Obj_Game","path":"objects/Obj_Game/Obj_Game.yy",},},
     {"id":{"name":"Obj_healthDrop","path":"objects/Obj_healthDrop/Obj_healthDrop.yy",},},
     {"id":{"name":"Obj_healthUpgrade","path":"objects/Obj_healthUpgrade/Obj_healthUpgrade.yy",},},
     {"id":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},},
