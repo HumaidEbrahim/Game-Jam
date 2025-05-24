@@ -83,7 +83,6 @@
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"Sprite20","path":"sprites/Sprite20/Sprite20.yy",},},
     {"id":{"name":"Weapon1_1","path":"sprites/Weapon1_1/Weapon1_1.yy",},},
-    {"id":{"name":"Weapon1","path":"sprites/Weapon1/Weapon1.yy",},},
     {"id":{"name":"weapon1Bullet_1","path":"sprites/weapon1Bullet_1/weapon1Bullet_1.yy",},},
     {"id":{"name":"weapon1Bullet","path":"sprites/weapon1Bullet/weapon1Bullet.yy",},},
   ],
