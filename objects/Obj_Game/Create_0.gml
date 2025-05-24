@@ -1,0 +1,2 @@
+global.tickTimer = 0;
+
