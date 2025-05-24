@@ -19,6 +19,6 @@ draw_set_color(c_white); // Set text color
 draw_text(bar_x1, bar_y1 - 20, "HP");
 
 // Draw the actual health bar
-draw_healthbar(bar_x1, bar_y1, bar_x2, bar_y2, global.a, c_black, c_red, c_lime, 0, true, true);
+draw_healthbar(bar_x1, bar_y1, bar_x2, bar_y2, hp, c_black, c_red, c_lime, 0, true, true);
 
 
