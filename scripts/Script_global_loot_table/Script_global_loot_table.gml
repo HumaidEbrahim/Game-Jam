@@ -1,6 +1,9 @@
 global.loot_table = [
 		{item: Obj_weapon_weapon1, weight:50},
-		{item: Obj_enemy_playerenemy_enemy1, weight:50},
+		{item: Obj_weapon_laserADM, weight:50},
+		{item: Obj_weapon_nrzRifle, weight:50},
+		{item: Obj_weapon_shotgun, weight:50},
+		{item: Obj_weapon_pistol, weight:50},
 		{item: Obj_healthDrop, weight:50},
 		{item: Obj_healthUpgrade, weight:50}
 	]

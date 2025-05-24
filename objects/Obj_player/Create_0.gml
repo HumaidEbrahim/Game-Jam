@@ -8,6 +8,12 @@ equipKey = 0;
 hp = 100;
 global.maxHp = 100;
  
+ //State Variables
+damage_flash_timer = 0;
+knockback_timer = 0;
+ 
+ 
+ 
  //Current equiped weapon
 currentWeapon = noone;
 // Equips default weapon

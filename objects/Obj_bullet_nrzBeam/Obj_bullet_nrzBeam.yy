@@ -9,7 +9,10 @@
     "name":"Bullets",
     "path":"folders/Objects/Bullets.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_weapon",
+    "path":"objects/Obj_weapon/Obj_weapon.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"nrzBeam",
+    "path":"sprites/nrzBeam/nrzBeam.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
