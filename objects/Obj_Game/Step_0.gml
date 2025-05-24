@@ -75,7 +75,10 @@ else {//if there arent any enemies, it wil wait a certain time.
                 [1880, 1055]//bootom_right
             ];
 			//this is the for loop, that prints out the number of enemies for each round
-			var serverenemy_random_spawn = choose(0,1,3,4);
+			//var serverenemy_random_spawn = choose(0,1,2,3);
+			var spawn_len = array_length(spawn_points);
+			var serverenemy_random_spawn = irandom(spawn_len - 1);
+			show_debug_message("Random server enemy spawn index: " + string(serverenemy_random_spawn));
 
             for (var i = 0; i < num_of_enemies; i++) {
                 var point = spawn_points[i mod array_length(spawn_points)];
