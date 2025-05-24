@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Final_Bullet_Sprites",
-    "path":"sprites/Final_Bullet_Sprites/Final_Bullet_Sprites.yy",
+    "name":"pistolBullet",
+    "path":"sprites/pistolBullet/pistolBullet.yy",
   },
   "spriteMaskId":null,
   "visible":true,
