@@ -1,3 +1,4 @@
+
 if damage_flash_timer > 0 {
     damage_flash_timer -= 1;
 

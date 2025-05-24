@@ -9,7 +9,10 @@
     "name":"Server",
     "path":"folders/Objects/Server.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_Server",
+    "path":"objects/Obj_Server/Obj_Server.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -26,8 +29,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
-  "spriteId":null,
+  "solid":true,
+  "spriteId":{
+    "name":"ServerWeb_Main_01",
+    "path":"sprites/ServerWeb_Main_01/ServerWeb_Main_01.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

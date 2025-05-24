@@ -29,7 +29,7 @@ sprite[6] = IdleLeft;
 sprite[7] = IdleForward;
 
 sprite_index = sprite[face];
-mask_index = sprite[3];
+mask_index = sprite[7];
 
 
 //Function for equiping and changing weapons
