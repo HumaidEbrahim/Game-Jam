@@ -3,6 +3,10 @@ moveDir = 0;
 moveSpd = 3;
 xSpeed = 0;
 ySpeed = 0;
+equipKey = 0;
+//Stat variables
+hp = 100;
+maxHp = 100;
  
  //Current equiped weapon
 currentWeapon = noone;
@@ -17,7 +21,7 @@ aimDir = 0;
 face = 3;
 sprite[0] = RunRight;
 sprite[1] = RunBack;
-sprite[2] = RunLeft;
+sprite[2] = RunLeft_1;
 sprite[3] = RunForward;
 sprite[4] = IdleRight;
 sprite[5] = IdleBack;
