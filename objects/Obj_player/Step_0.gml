@@ -4,7 +4,7 @@ var upKey = keyboard_check(ord("W"));
 var downKey = keyboard_check(ord("S"));
 equipKey = keyboard_check_pressed(ord("E"));
 currentWeapon.image_index = 0;
-
+mask_index = sprite[7];
 
 if hp > global.maxHp{
 	hp = global.maxHp;
