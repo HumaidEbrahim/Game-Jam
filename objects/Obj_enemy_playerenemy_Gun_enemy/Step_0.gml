@@ -1,6 +1,3 @@
-
-
-
 if (distance_to_point(Obj_player.x, Obj_player.y) >= 250){
 event_inherited();
 }
