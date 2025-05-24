@@ -8,7 +8,9 @@ if shootTimer > 0
 	
 if shootTimer <= 0{
 	shootTimer = shootCooldown;
+	//lightningStrike()
 	attack360()
+	
 	
 }
 

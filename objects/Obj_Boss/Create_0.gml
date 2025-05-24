@@ -8,6 +8,8 @@ moveSpd = 2
 moveSpd = 1.5;
 moveDir = 0;
 isWaiting = false;
+timer = 60
+
 
 function attack360() {
     var numDirections = 8;
@@ -33,4 +35,15 @@ function jump(){
 
 function laser(){
 	
+}
+
+function lightningStrike(){
+	var strikes = 10;
+
+	for (var i = 0; i < strikes; i++){
+		var xx = random(room_width);
+		var yy = random(room_height);
+
+		instance_create_layer(xx, yy, "Instances", Obj_Warning_Marker);
+	}
 }

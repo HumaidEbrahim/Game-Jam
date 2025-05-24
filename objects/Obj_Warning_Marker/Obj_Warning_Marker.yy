@@ -1,22 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Boss",
+  "%Name":"Obj_Warning_Marker",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Boss",
+  "name":"Obj_Warning_Marker",
   "overriddenProperties":[],
   "parent":{
     "name":"Enemy Objects",
     "path":"folders/Objects/Enemy Objects.yy",
   },
-  "parentObjectId":{
-    "name":"Obj_enemy_playerenemy",
-    "path":"objects/Obj_enemy_playerenemy/Obj_enemy_playerenemy.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -35,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy1",
-    "path":"sprites/spr_enemy1/spr_enemy1.yy",
+    "name":"spr_warning",
+    "path":"sprites/spr_warning/spr_warning.yy",
   },
   "spriteMaskId":null,
   "visible":true,
