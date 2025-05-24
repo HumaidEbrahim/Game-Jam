@@ -48,11 +48,7 @@ else if global.corruption >= 1500 && global.corruption < 2000{
 	
 }
 
-
-
-
-
-wait_time_frames = 6*100;
+wait_time_frames = 60;
 
 //this is where i check if there are any enemies on the map
 if (instance_exists(Obj_enemy_playerenemy_enemy1)) {
