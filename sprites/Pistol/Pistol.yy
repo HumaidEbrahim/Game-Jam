@@ -4,7 +4,7 @@
   "bboxMode":0,
   "bbox_bottom":13,
   "bbox_left":0,
-  "bbox_right":23,
+  "bbox_right":22,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -13,6 +13,8 @@
   "For3D":false,
   "frames":[
     {"$GMSpriteFrame":"","%Name":"3730104c-15be-43a9-aafc-d38e4886f8a3","name":"3730104c-15be-43a9-aafc-d38e4886f8a3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"d6f72600-64cc-4ba2-a7f7-5f7028613229","name":"d6f72600-64cc-4ba2-a7f7-5f7028613229","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"c9ac5d78-4aa7-48f4-af8d-bf5335d06f39","name":"c9ac5d78-4aa7-48f4-af8d-bf5335d06f39","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -49,7 +51,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":3.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -59,7 +61,7 @@
     },
     "name":"Pistol",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":5.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
@@ -73,6 +75,12 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3730104c-15be-43a9-aafc-d38e4886f8a3","path":"sprites/Pistol/Pistol.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"166c8109-4a5e-4462-9c08-57a464dd3901","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d6f72600-64cc-4ba2-a7f7-5f7028613229","path":"sprites/Pistol/Pistol.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c23effc4-19c1-4a73-8b8d-3d87bc1e5c20","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c9ac5d78-4aa7-48f4-af8d-bf5335d06f39","path":"sprites/Pistol/Pistol.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"600b19ae-9e4d-48d5-8198-5ca5d3aa2ffd","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
