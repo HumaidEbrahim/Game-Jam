@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"weapon1Bullet_1",
-    "path":"sprites/weapon1Bullet_1/weapon1Bullet_1.yy",
+    "name":"machineGUNBullet",
+    "path":"sprites/machineGUNBullet/machineGUNBullet.yy",
   },
   "spriteMaskId":null,
   "visible":true,

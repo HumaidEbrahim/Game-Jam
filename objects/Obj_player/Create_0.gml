@@ -11,7 +11,7 @@ global.maxHp = 100;
  //Current equiped weapon
 currentWeapon = noone;
 // Equips default weapon
-equip_weapon(Obj_weapon_weapon1)
+equip_weapon(Obj_weapon_pistol)
 //Center offsets
 centerY = 0;
 //Aiming direction

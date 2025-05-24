@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Weapon1_1",
-    "path":"sprites/Weapon1_1/Weapon1_1.yy",
+    "name":"machineGUN",
+    "path":"sprites/machineGUN/machineGUN.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -36,12 +36,9 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"servertestttttt",
-    "path":"sprites/servertestttttt/servertestttttt.yy",
+    "name":"ServerMainFrame_Main_01",
+    "path":"sprites/ServerMainFrame_Main_01/ServerMainFrame_Main_01.yy",
   },
-  "spriteMaskId":{
-    "name":"servercoltesstttt2222222222222222",
-    "path":"sprites/servercoltesstttt2222222222222222/servercoltesstttt2222222222222222.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
