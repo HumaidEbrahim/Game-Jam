@@ -16,6 +16,9 @@ jumpGroundY = y;           // Save the ground Y position
 jumpTargetY = 0;
 jumpSpeed = 20;
 jumpFallSpeed = 15;
+//dash
+dash_speed = 15;
+dashing = false;
 
 
 
@@ -67,6 +70,10 @@ function lightningStrike(){
 }
 
 function summon(){
+	
+}
+
+function dash(){
 	
 }
 
