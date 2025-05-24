@@ -2,17 +2,10 @@
   "$GMSprite":"",
   "%Name":"IdleForward",
   "bboxMode":2,
-<<<<<<< HEAD
   "bbox_bottom":73,
   "bbox_left":4,
   "bbox_right":40,
   "bbox_top":37,
-=======
-  "bbox_bottom":72,
-  "bbox_left":6,
-  "bbox_right":38,
-  "bbox_top":54,
->>>>>>> parent of d93c7d2 (Merge remote-tracking branch 'origin/Humaid' into Momo-if-he-was-good-at-coding)
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
