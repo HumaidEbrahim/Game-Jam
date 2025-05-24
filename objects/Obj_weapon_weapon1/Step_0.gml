@@ -4,9 +4,10 @@ event_inherited();
 
 if useWeapon && shootTimer <= 0
 {
-	shootTimer = shootCooldown;
+	shootTimer = shootCooldown
 	var _bullet = instance_create_layer(x, y, "Instances",Obj_bullet_weapon1)
 	with(_bullet){
 		direction = mouseTrack();
 	}
+	
 }

@@ -5,3 +5,4 @@ owner = noone;
 aimDir = 0;
 centerY = 0;
 equipped = false;
+shootDuration = 0;
