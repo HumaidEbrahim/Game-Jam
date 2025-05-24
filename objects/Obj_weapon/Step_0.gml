@@ -16,7 +16,7 @@ if aimDir > 90 && aimDir < 270
 	image_yscale = _weaponYScale;
 }
 if aimDir >= 45 && aimDir <= 135{
-	depth = 1
+	depth = 100
 }
 else{
 	depth = -1	
