@@ -67,6 +67,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Script_global_loot_table","path":"scripts/Script_global_loot_table/Script_global_loot_table.yy",},},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
+    {"id":{"name":"Enemy02","path":"sprites/Enemy02/Enemy02.yy",},},
     {"id":{"name":"Floor01","path":"sprites/Floor01/Floor01.yy",},},
     {"id":{"name":"heal","path":"sprites/heal/heal.yy",},},
     {"id":{"name":"health_upgrade","path":"sprites/health_upgrade/health_upgrade.yy",},},
