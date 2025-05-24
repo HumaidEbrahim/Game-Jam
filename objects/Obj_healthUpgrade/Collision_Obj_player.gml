@@ -1,9 +1,9 @@
-other.maxHp += maxHp;
-if other.hp < other.maxHp{
-	other.hp += maxHp;
-	if other.hp > other.maxHp
+global.maxHp += maxHp;
+if other.hp < global.maxHp{
+	other.hp += global.maxHp;
+	if other.hp > global.maxHp
 	{
-		other.hp = other.maxHp;
+		other.hp = global.maxHp;
 	}
 }
 instance_destroy();

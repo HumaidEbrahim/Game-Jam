@@ -4,3 +4,5 @@ if (random(100) < 100) { // 50% chance to drop something
         instance_create_layer(x, y, "Loot", loot);
     }
 }
+
+effect_create_depth(10,ef_cloud,x,y,0.5,c_green);

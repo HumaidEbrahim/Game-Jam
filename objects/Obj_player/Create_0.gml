@@ -6,7 +6,7 @@ ySpeed = 0;
 equipKey = 0;
 //Stat variables
 hp = 100;
-maxHp = 100;
+global.maxHp = 100;
  
  //Current equiped weapon
 currentWeapon = noone;

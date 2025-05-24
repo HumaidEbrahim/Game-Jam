@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"Obj_serverDHCP",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"Obj_serverDHCP",
   "overriddenProperties":[],
@@ -9,7 +11,10 @@
     "name":"Server",
     "path":"folders/Objects/Server.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_Server",
+    "path":"objects/Obj_Server/Obj_Server.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -26,8 +31,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
-  "spriteId":null,
+  "solid":true,
+  "spriteId":{
+    "name":"ServerDHCP_Main_01",
+    "path":"sprites/ServerDHCP_Main_01/ServerDHCP_Main_01.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
