@@ -9,6 +9,16 @@ moveSpd = 1.5;
 moveDir = 0;
 isWaiting = false;
 timer = 60
+//jump 
+jumping = false;
+jumpState = 0;
+jumpGroundY = y;           // Save the ground Y position
+jumpTargetY = 0;
+jumpSpeed = 20;
+jumpFallSpeed = 15;
+
+
+
 
 
 function attack360() {
@@ -28,9 +38,16 @@ function attack360() {
     }
 }
 
-function jump(){
-	
+
+function bossJumpAttack() {
+    if (!jumping) {
+        jumping = true;
+        jumpState = -1;          // Pre-jump delay
+        alarm[1] = 10;           // Short pause before jumping
+    }
 }
+
+
 
 
 function laser(){
@@ -47,4 +64,5 @@ function lightningStrike(){
 		instance_create_layer(xx, yy, "Instances", Obj_Warning_Marker);
 	}
 }
+
 
