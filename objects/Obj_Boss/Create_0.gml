@@ -30,7 +30,7 @@ function attack360() {
         var baseAngle = i * directionStep;
 
         for (var j = 0; j < bulletsPerDirection; j++) {
-            var _bullet = instance_create_layer(x, y, "Instances", Obj_bullet_enemy);
+            var _bullet = instance_create_layer(x, y, "Instances", Obj_dustDamage);
 
             _bullet.direction = baseAngle;
             _bullet.speed = 1 + j; 
@@ -44,6 +44,7 @@ function bossJumpAttack() {
         jumping = true;
         jumpState = -1;          // Pre-jump delay
         alarm[1] = 10;           // Short pause before jumping
+		
     }
 }
 
@@ -63,6 +64,10 @@ function lightningStrike(){
 
 		instance_create_layer(xx, yy, "Instances", Obj_Warning_Marker);
 	}
+}
+
+function summon(){
+	
 }
 
 

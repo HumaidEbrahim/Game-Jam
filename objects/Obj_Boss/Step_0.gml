@@ -22,7 +22,7 @@ if (shootTimer <= 0) {
 		case 2:
 			if hp <= 2225{
 				bossJumpAttack()
-				attack360();
+				
 			}
 			else{
 				attack360()
@@ -54,6 +54,7 @@ if (jumping) {
                 image_speed = 1;             // Resume animation
                 jumping = false;
                 jumpState = 0;
+				attack360();
             }
             break;
     }
