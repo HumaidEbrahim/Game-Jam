@@ -10,7 +10,7 @@ moveDir = 0;
 isWaiting = false;
 
 function attack360() {
-    var numDirections = 36;
+    var numDirections = 8;
     var bulletsPerDirection = 4;
     var directionStep = 360 / numDirections;
 
