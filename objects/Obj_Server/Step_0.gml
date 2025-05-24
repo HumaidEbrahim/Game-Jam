@@ -9,3 +9,4 @@ if damage_flash_timer > 0 {
 if hp < 0{
 	hp = 0;	
 }
+

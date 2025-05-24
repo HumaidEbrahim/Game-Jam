@@ -6,6 +6,10 @@ if(global.tickTimer mod 60 == 0){
 	}
 }
 if global.corruption >= global.maxCorruption {
+		global.baseCooldown = 60;
+		if global.maxHp > 50 {
+		global.maxHp = 50;
+		}
 		
 }
 
@@ -15,7 +19,7 @@ if global.corruption < 500 {
 }
 
 else if global.corruption >= 500 && global.corruption < 1000{
-	if global.baseCooldown > 15 {
+	if global.baseCooldown < 15 {
 	 global.baseCooldown = 15;
 	}
 	if global.maxHp > 200 {
@@ -25,7 +29,7 @@ else if global.corruption >= 500 && global.corruption < 1000{
 	}
 	
 else if global.corruption >= 1000 && global.corruption < 1500{
-	if global.baseCooldown > 30 {
+	if global.baseCooldown < 30 {
 	 global.baseCooldown = 30;
 	}
 	if global.maxHp > 150 {
@@ -34,11 +38,11 @@ else if global.corruption >= 1000 && global.corruption < 1500{
 	global.dropRate = 35;
 }
 else if global.corruption >= 1500 && global.corruption < 2000{
-	if global.baseCooldown > 60 {
-	 global.baseCooldown = 60;
+	if global.baseCooldown < 45 {
+	 global.baseCooldown = 45;
 	}
-	if global.maxHp > 100 {
-		global.maxHp = 100;
+	if global.maxHp > 120 {
+		global.maxHp = 120;
 	}
 	global.dropRate = 25;
 	
