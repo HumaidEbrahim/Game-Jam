@@ -47,3 +47,4 @@ function lightningStrike(){
 		instance_create_layer(xx, yy, "Instances", Obj_Warning_Marker);
 	}
 }
+
