@@ -85,6 +85,7 @@
     {"id":{"name":"MapTest01","path":"sprites/MapTest01/MapTest01.yy",},},
     {"id":{"name":"MapTest02","path":"sprites/MapTest02/MapTest02.yy",},},
     {"id":{"name":"MapTest04","path":"sprites/MapTest04/MapTest04.yy",},},
+    {"id":{"name":"MapTest05","path":"sprites/MapTest05/MapTest05.yy",},},
     {"id":{"name":"RunBack","path":"sprites/RunBack/RunBack.yy",},},
     {"id":{"name":"RunForward","path":"sprites/RunForward/RunForward.yy",},},
     {"id":{"name":"RunLeft_1","path":"sprites/RunLeft_1/RunLeft_1.yy",},},
