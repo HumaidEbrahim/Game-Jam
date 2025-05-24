@@ -1,6 +1,6 @@
 
 hp = 1
-moveSpd = 10
+moveSpd = 5
 xSpeed = 0
 ySpeed = 0
 moveDir = 0
