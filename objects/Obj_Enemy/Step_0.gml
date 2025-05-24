@@ -12,7 +12,7 @@ else if knockback_timer >= 0{
     var can_move_y = place_meeting(x, y + dy, Obj_wall);
 	var can_move_xEnemy = place_meeting(x + dx, y, Obj_Enemy);
     var can_move_yEnemy = place_meeting(x, y + dy, Obj_Enemy);
-    // Apply movement only if no collision
+    // Apply movement only if no collisiond
     if can_move_x || can_move_xEnemy {
          dx = 0;
         speed = 0;
