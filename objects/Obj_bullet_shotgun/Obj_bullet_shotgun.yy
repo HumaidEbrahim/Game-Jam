@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_weapon_laserADM",
+  "%Name":"Obj_bullet_shotgun",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_weapon_laserADM",
+  "name":"Obj_bullet_shotgun",
   "overriddenProperties":[],
   "parent":{
-    "name":"Weapons",
-    "path":"folders/Objects/Weapons.yy",
+    "name":"Bullets",
+    "path":"folders/Objects/Bullets.yy",
   },
   "parentObjectId":{
-    "name":"Obj_weapon",
-    "path":"objects/Obj_weapon/Obj_weapon.yy",
+    "name":"Obj_bullet",
+    "path":"objects/Obj_bullet/Obj_bullet.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"laserGun",
-    "path":"sprites/laserGun/laserGun.yy",
+    "name":"ShotGun_Ball",
+    "path":"sprites/ShotGun_Ball/ShotGun_Ball.yy",
   },
   "spriteMaskId":null,
   "visible":true,
