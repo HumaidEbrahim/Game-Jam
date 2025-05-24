@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_bullet_weapon1",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_bullet_nrzBeam",
+  "eventList":[],
   "managed":true,
-  "name":"Obj_bullet_weapon1",
+  "name":"Obj_bullet_nrzBeam",
   "overriddenProperties":[],
   "parent":{
     "name":"Bullets",
     "path":"folders/Objects/Bullets.yy",
   },
-  "parentObjectId":{
-    "name":"Obj_bullet",
-    "path":"objects/Obj_bullet/Obj_bullet.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"machineGUNBullet",
-    "path":"sprites/machineGUNBullet/machineGUNBullet.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

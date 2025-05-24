@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_weapon_weapon1",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_weapon_laserADM",
+  "eventList":[],
   "managed":true,
-  "name":"Obj_weapon_weapon1",
+  "name":"Obj_weapon_laserADM",
   "overriddenProperties":[],
   "parent":{
     "name":"Weapons",
@@ -34,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"machineGUN",
-    "path":"sprites/machineGUN/machineGUN.yy",
+    "name":"laserGun",
+    "path":"sprites/laserGun/laserGun.yy",
   },
   "spriteMaskId":null,
   "visible":true,

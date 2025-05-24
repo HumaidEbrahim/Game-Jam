@@ -1,20 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_weapon_weapon1",
+  "%Name":"Obj_bullet_pistol",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_weapon_weapon1",
+  "name":"Obj_bullet_pistol",
   "overriddenProperties":[],
   "parent":{
-    "name":"Weapons",
-    "path":"folders/Objects/Weapons.yy",
+    "name":"Bullets",
+    "path":"folders/Objects/Bullets.yy",
   },
   "parentObjectId":{
-    "name":"Obj_weapon",
-    "path":"objects/Obj_weapon/Obj_weapon.yy",
+    "name":"Obj_bullet",
+    "path":"objects/Obj_bullet/Obj_bullet.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"machineGUN",
-    "path":"sprites/machineGUN/machineGUN.yy",
+    "name":"Final_Bullet_Sprites",
+    "path":"sprites/Final_Bullet_Sprites/Final_Bullet_Sprites.yy",
   },
   "spriteMaskId":null,
   "visible":true,
