@@ -15,7 +15,9 @@ if global.corruption < 500 {
 }
 
 else if global.corruption >= 500 && global.corruption < 1000{
-	global.baseCooldown = 15;
+	if global.baseCooldown > 15 {
+	 global.baseCooldown = 15;
+	}
 	if global.maxHp > 200 {
 		global.maxHp = 200;
 	}
@@ -23,14 +25,18 @@ else if global.corruption >= 500 && global.corruption < 1000{
 	}
 	
 else if global.corruption >= 1000 && global.corruption < 1500{
-	global.baseCooldown = 30;
+	if global.baseCooldown > 30 {
+	 global.baseCooldown = 30;
+	}
 	if global.maxHp > 150 {
 		global.maxHp = 150;
 	}
 	global.dropRate = 35;
 }
 else if global.corruption >= 1500 && global.corruption < 2000{
-	global.baseCooldown = 60;
+	if global.baseCooldown > 60 {
+	 global.baseCooldown = 60;
+	}
 	if global.maxHp > 100 {
 		global.maxHp = 100;
 	}
