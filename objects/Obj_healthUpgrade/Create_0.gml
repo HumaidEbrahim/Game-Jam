@@ -1,2 +1,2 @@
-maxHp = 10;
+addHp = 10;
 

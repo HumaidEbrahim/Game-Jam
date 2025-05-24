@@ -5,6 +5,11 @@ var downKey = keyboard_check(ord("S"));
 equipKey = keyboard_check_pressed(ord("E"));
 currentWeapon.image_index = 0;
 
+
+if hp > global.maxHp{
+	hp = global.maxHp;
+}
+
 if (hp <= 0){
 	game_restart()	
 }

@@ -1,3 +1,4 @@
+global.baseCooldown = 0;
 useWeapon = false;
 shootTimer = 0;
 shootCooldown = 0;
