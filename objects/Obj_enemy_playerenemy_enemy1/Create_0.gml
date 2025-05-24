@@ -3,4 +3,5 @@ event_inherited();
 
 hp = hp + 20
 damage = +2
+moveSpd = 0.5;
 
