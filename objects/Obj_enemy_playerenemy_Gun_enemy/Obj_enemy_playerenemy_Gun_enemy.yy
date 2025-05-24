@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_enemy_serverenemy",
+  "%Name":"Obj_enemy_playerenemy_Gun_enemy",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_enemy_serverenemy",
+  "name":"Obj_enemy_playerenemy_Gun_enemy",
   "overriddenProperties":[],
   "parent":{
     "name":"Enemy Objects",
     "path":"folders/Objects/Enemy Objects.yy",
   },
   "parentObjectId":{
-    "name":"Obj_Enemy",
-    "path":"objects/Obj_Enemy/Obj_Enemy.yy",
+    "name":"Obj_enemy_playerenemy",
+    "path":"objects/Obj_enemy_playerenemy/Obj_enemy_playerenemy.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -32,7 +33,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_gunEnemy",
+    "path":"sprites/spr_gunEnemy/spr_gunEnemy.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
