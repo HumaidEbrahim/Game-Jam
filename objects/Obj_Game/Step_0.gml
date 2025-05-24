@@ -86,7 +86,7 @@ else {//if there arent any enemies, it wil wait a certain time.
 				if ((i mod array_length(spawn_points)) == 0 || (i mod array_length(spawn_points)) == 1) {
 					var server_point = spawn_points[serverenemy_random_spawn];
 					instance_create_depth(server_point[0], server_point[1], depth - 1, Obj_enemy_serverenemy_enemy1);
-					//instance_create_depth(server_point[0], server_point[1], depth - 1, Obj_enemy_playerenemy_Gun_enemy1);
+					instance_create_depth(server_point[0], server_point[1], depth - 1, Obj_enemy_playerenemy_Gun_enemy);
 					instance_create_depth(server_point[0], server_point[1], depth - 1, Obj_enemy_serverFlyingEnemy);
 					
 				}
