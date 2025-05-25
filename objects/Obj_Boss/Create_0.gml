@@ -1,6 +1,7 @@
 // Inherit the parent event
 event_inherited();
 hp = hp + 2500
+max_hp = 2500
 damage = damage + 25
 shootTimer = 0
 shootCooldown = 500
@@ -8,7 +9,7 @@ moveSpd = 2
 moveSpd = 1.5;
 moveDir = 0;
 isWaiting = false;
-timer = 60
+timer = 120
 //jump 
 jumping = false;
 jumpState = 0;
@@ -16,9 +17,9 @@ jumpGroundY = y;           // Save the ground Y position
 jumpTargetY = 0;
 jumpSpeed = 20;
 jumpFallSpeed = 15;
-
-
-
+//dash
+dash_speed = 15;
+dashing = false;
 
 
 function attack360() {
@@ -48,26 +49,33 @@ function bossJumpAttack() {
     }
 }
 
-
-
-
 function laser(){
 	
 }
 
 function lightningStrike(){
-	var strikes = 10;
+	var strikes = 7;
 
 	for (var i = 0; i < strikes; i++){
-		var xx = random(room_width);
-		var yy = random(room_height);
+		var xx = random(room_width-400);
+		var yy = random(room_height-200);
 
 		instance_create_layer(xx, yy, "Instances", Obj_Warning_Marker);
 	}
 }
 
 function summon(){
+	var spawn = 5
+	for (var i = 0; i < spawn; i++){
+		var xx = random(room_width-400);
+		var yy = random(room_height-200);
+		instance_create_layer(xx, yy, "Instances", Obj_enemy_playerenemy_enemy1);
+	
+}
+
+function dash(){
 	
 }
 
 
+}

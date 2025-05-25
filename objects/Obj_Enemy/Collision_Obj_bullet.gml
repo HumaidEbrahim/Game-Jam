@@ -8,3 +8,4 @@ speed = other.knockback;
 direction = other.direction;
 knockback_timer = 5;
 }
+instance_destroy(other);
