@@ -7,6 +7,8 @@ var bar_x2 = bar_x1 + bar_width;
 var bar_y2 = bar_y1 + bar_height;
 
 // === Background (border) ===
+draw_set_color(c_white);
+draw_rectangle(bar_x1 - 5, bar_y1 -5, bar_x2 + 5, bar_y2 + 5, false); // outline
 draw_set_color(c_black);
 draw_rectangle(bar_x1, bar_y1, bar_x2, bar_y2, false); // outline
 
