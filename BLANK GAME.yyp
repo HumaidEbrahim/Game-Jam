@@ -99,6 +99,8 @@
     {"id":{"name":"Obj_serverHeal","path":"objects/Obj_serverHeal/Obj_serverHeal.yy",},},
     {"id":{"name":"Obj_Text_Credits_Heading","path":"objects/Obj_Text_Credits_Heading/Obj_Text_Credits_Heading.yy",},},
     {"id":{"name":"Obj_Text_Credits","path":"objects/Obj_Text_Credits/Obj_Text_Credits.yy",},},
+    {"id":{"name":"Obj_Text_Help_Heading","path":"objects/Obj_Text_Help_Heading/Obj_Text_Help_Heading.yy",},},
+    {"id":{"name":"Obj_Text_Help","path":"objects/Obj_Text_Help/Obj_Text_Help.yy",},},
     {"id":{"name":"Obj_Text_Thanks","path":"objects/Obj_Text_Thanks/Obj_Text_Thanks.yy",},},
     {"id":{"name":"Obj_Text","path":"objects/Obj_Text/Obj_Text.yy",},},
     {"id":{"name":"Obj_wall","path":"objects/Obj_wall/Obj_wall.yy",},},
