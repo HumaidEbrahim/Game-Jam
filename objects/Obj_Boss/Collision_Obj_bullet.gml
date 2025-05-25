@@ -7,4 +7,3 @@ image_blend = c_red;
 damage_flash_timer = 7;
 }
 instance_destroy(other);
-
