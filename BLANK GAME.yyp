@@ -170,6 +170,7 @@
     {"id":{"name":"spr_enemyBullet","path":"sprites/spr_enemyBullet/spr_enemyBullet.yy",},},
     {"id":{"name":"spr_flyingEnemy","path":"sprites/spr_flyingEnemy/spr_flyingEnemy.yy",},},
     {"id":{"name":"spr_gunEnemy","path":"sprites/spr_gunEnemy/spr_gunEnemy.yy",},},
+    {"id":{"name":"spr_gunEnemyScreen","path":"sprites/spr_gunEnemyScreen/spr_gunEnemyScreen.yy",},},
     {"id":{"name":"spr_lightning","path":"sprites/spr_lightning/spr_lightning.yy",},},
     {"id":{"name":"spr_player1_1","path":"sprites/spr_player1_1/spr_player1_1.yy",},},
     {"id":{"name":"spr_player1","path":"sprites/spr_player1/spr_player1.yy",},},
