@@ -1,6 +1,6 @@
 // Inherit the parent event
 event_inherited();
-shootCooldown = 3;
+shootCooldown = 7;
 if useWeapon && shootTimer <= 0
 {
 	shootTimer = shootCooldown

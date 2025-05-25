@@ -1,3 +1,3 @@
 instance_destroy()
 
-//other.hp -= damage;
+other.hp -= damage;
