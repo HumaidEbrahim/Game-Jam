@@ -1,0 +1,1 @@
+audio_play_sound(GJMenu,1,true);
