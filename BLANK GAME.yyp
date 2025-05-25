@@ -53,6 +53,7 @@
     {"id":{"name":"Font_UI_Header","path":"fonts/Font_UI_Header/Font_UI_Header.yy",},},
     {"id":{"name":"Font_UI","path":"fonts/Font_UI/Font_UI.yy",},},
     {"id":{"name":"Obj_Boss","path":"objects/Obj_Boss/Obj_Boss.yy",},},
+    {"id":{"name":"Obj_bossGame","path":"objects/Obj_bossGame/Obj_bossGame.yy",},},
     {"id":{"name":"Obj_bullet_enemy","path":"objects/Obj_bullet_enemy/Obj_bullet_enemy.yy",},},
     {"id":{"name":"Obj_bullet_laser","path":"objects/Obj_bullet_laser/Obj_bullet_laser.yy",},},
     {"id":{"name":"Obj_bullet_nrzBeam","path":"objects/Obj_bullet_nrzBeam/Obj_bullet_nrzBeam.yy",},},
