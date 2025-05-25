@@ -1,5 +1,5 @@
 image_alpha = 0;
-fade_speed = 0.05;
+fade_speed = 0.01;
 fading_out = true;
 fading_in = true;
 target_room = Room1
