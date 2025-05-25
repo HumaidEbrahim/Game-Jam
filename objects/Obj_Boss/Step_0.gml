@@ -83,8 +83,17 @@ if (shootTimer <= 0) {
 			}
 			break
 		case 3:
-			summon()
+			if hp <= 1250{
+				summon()
+				lightningStrike();
+				
+			}
+			else{
+				summon()
+			}
 			break
+			
+			
     }
 }
 

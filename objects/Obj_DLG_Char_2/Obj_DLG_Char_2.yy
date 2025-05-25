@@ -1,18 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_bossGame",
+  "%Name":"Obj_DLG_Char_2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_bossGame",
+  "name":"Obj_DLG_Char_2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"UI",
+    "path":"folders/Objects/UI.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_Dialogue",
+    "path":"objects/Obj_Dialogue/Obj_Dialogue.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
