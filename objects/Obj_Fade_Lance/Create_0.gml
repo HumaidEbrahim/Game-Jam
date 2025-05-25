@@ -1,5 +1,5 @@
 // Inherit the parent event
 event_inherited();
-target_room = Room1_1
-img_background = BG_Fade_Glitch
+target_room = Room_Lance
+img_background = BG_Fade_2
 

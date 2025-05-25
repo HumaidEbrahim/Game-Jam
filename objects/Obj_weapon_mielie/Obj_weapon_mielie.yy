@@ -16,7 +16,7 @@
     "name":"Obj_weapon",
     "path":"objects/Obj_weapon/Obj_weapon.yy",
   },
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -33,7 +33,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"CornCun",
+    "path":"sprites/CornCun/CornCun.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
