@@ -10,7 +10,11 @@ if global.corruption >= global.maxCorruption {
 		if global.maxHp > 50 {
 		global.maxHp = 50;
 		}
-		room_goto(Room1_1)
+		// Transition to Boss Room
+		if (!instance_exists(Obj_Fade_Lance)) {
+			instance_create_layer(0, 0, "Instances", Obj_Fade_Lance);
+		}
+
 		
 }
 
