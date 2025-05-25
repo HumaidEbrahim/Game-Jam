@@ -8,3 +8,4 @@ centerY = 0;
 equipped = false;
 shootDuration = 0;
 despawnTimer = 1800;
+sound = 0;
