@@ -12,4 +12,4 @@ if (fading_out) {
         }
     }
 }
-//restart_room = false
+

@@ -17,6 +17,9 @@ jumpGroundY = y;           // Save the ground Y position
 jumpTargetY = 0;
 jumpSpeed = 20;
 jumpFallSpeed = 15;
+//Boss Sprites
+
+
 //dash
 dash_speed = 15;
 dashing = false;
@@ -42,9 +45,16 @@ function attack360() {
 
 function bossJumpAttack() {
     if (!jumping) {
+		// Phase: Pre-jump charge
+		sprite_index = spr_boss_prejump;
+	    image_index = 0;
+	    image_speed = 0.5;
+		moveSpd = 0
+		
+		
         jumping = true;
         jumpState = -1;          // Pre-jump delay
-        alarm[1] = 10;           // Short pause before jumping
+        alarm[1] = 60;           // Short pause before jumping
 		
     }
 }

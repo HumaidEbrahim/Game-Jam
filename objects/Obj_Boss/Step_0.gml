@@ -97,7 +97,9 @@ if (jumping) {
                 y -= jumpSpeed;
             } else {
                 y = jumpTargetY;
-                image_speed = 0;             // Freeze animation while hovering
+                sprite_index = spr_Boss;
+				image_index = 0;
+				image_speed = 0;		// Freeze animation while hovering
                 alarm[2] = 60;               // Hover for 2 seconds
                 jumpState = 1;
             }
@@ -108,9 +110,13 @@ if (jumping) {
                 y += jumpFallSpeed;
             } else {
                 y = jumpGroundY;
-                image_speed = 1;             // Resume animation
+                sprite_index = spr_Boss; // <- Return to default sprite
+				image_index = 0;
+				image_speed = 1;
                 jumping = false;
                 jumpState = 0;
+				moveSpd = 2
+				
 				attack360();
             }
             break;

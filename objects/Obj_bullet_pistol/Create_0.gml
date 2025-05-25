@@ -1,6 +1,6 @@
 // Inherit the parent event
 event_inherited();
 
-damage = 10;
+damage = 8;
 speed = 4;
 knockback = 2;
