@@ -140,7 +140,6 @@
     {"id":{"name":"mielie","path":"sounds/mielie/mielie.yy",},},
     {"id":{"name":"play","path":"sounds/play/play.yy",},},
     {"id":{"name":"shotgun","path":"sounds/shotgun/shotgun.yy",},},
-    {"id":{"name":"GJMenu","path":"sounds/GJMenu/GJMenu.yy",},},
     {"id":{"name":"sndAmpBeam","path":"sounds/sndAmpBeam/sndAmpBeam.yy",},},
     {"id":{"name":"sndEnemyHurt","path":"sounds/sndEnemyHurt/sndEnemyHurt.yy",},},
     {"id":{"name":"sndMachineGun","path":"sounds/sndMachineGun/sndMachineGun.yy",},},
