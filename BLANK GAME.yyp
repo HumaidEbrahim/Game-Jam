@@ -100,6 +100,7 @@
     {"id":{"name":"Script_global_loot_table","path":"scripts/Script_global_loot_table/Script_global_loot_table.yy",},},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"ampLaser","path":"sprites/ampLaser/ampLaser.yy",},},
+    {"id":{"name":"BossMap_01","path":"sprites/BossMap_01/BossMap_01.yy",},},
     {"id":{"name":"Button_Transparent","path":"sprites/Button_Transparent/Button_Transparent.yy",},},
     {"id":{"name":"Button","path":"sprites/Button/Button.yy",},},
     {"id":{"name":"Enemy02","path":"sprites/Enemy02/Enemy02.yy",},},
