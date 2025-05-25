@@ -7,7 +7,7 @@ equipKey = 0;
 //Stat variables
 hp = 100;
 global.maxHp = 100;
- 
+ depth = -1
  //State Variables
 damage_flash_timer = 0;
 knockback_timer = 0;

@@ -8,7 +8,7 @@ moveSpd = 2
 moveSpd = 1.5;
 moveDir = 0;
 isWaiting = false;
-timer = 60
+timer = 120
 //jump 
 jumping = false;
 jumpState = 0;
@@ -51,15 +51,12 @@ function bossJumpAttack() {
     }
 }
 
-
-
-
 function laser(){
 	
 }
 
 function lightningStrike(){
-	var strikes = 10;
+	var strikes = 7;
 
 	for (var i = 0; i < strikes; i++){
 		var xx = random(room_width-400);
