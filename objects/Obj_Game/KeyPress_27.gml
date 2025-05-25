@@ -1,1 +1,1 @@
-room_goto(Room_MainMenu)
+game_restart()
