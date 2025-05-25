@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"sndShotGun",
+  "%Name":"sndShotgun",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.0102267,
-  "name":"sndShotGun",
+  "duration":0.42650795,
+  "name":"sndShotgun",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sndShotGun.wav",
+  "soundFile":"sndShotgun.mp3",
   "type":0,
   "volume":1.0,
 }

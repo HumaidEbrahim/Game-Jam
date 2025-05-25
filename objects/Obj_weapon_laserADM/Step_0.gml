@@ -9,4 +9,5 @@ if useWeapon && shootTimer <= 0
 		direction = mouseTrack();
 	}
 	
+	audio_play_sound(sndAmpBeam, 1, false)
 }
