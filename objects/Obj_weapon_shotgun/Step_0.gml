@@ -13,6 +13,6 @@ if useWeapon && shootTimer <= 0
 	}
 	baseAngle += 5;
 	
-	
+	audio_play_sound(sndShotgun, 1, false)
 }
 }

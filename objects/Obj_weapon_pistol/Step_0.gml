@@ -9,5 +9,6 @@ if useWeapon && shootTimer <= 0
 	with(_bullet){
 		direction = mouseTrack();
 	}
+	audio_play_sound(sndPistol, 1, false)
 	
 }
