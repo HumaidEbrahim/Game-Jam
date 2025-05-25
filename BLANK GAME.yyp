@@ -76,6 +76,7 @@
     {"id":{"name":"Obj_enemy_serverFlyingEnemy","path":"objects/Obj_enemy_serverFlyingEnemy/Obj_enemy_serverFlyingEnemy.yy",},},
     {"id":{"name":"Obj_Enemy","path":"objects/Obj_Enemy/Obj_Enemy.yy",},},
     {"id":{"name":"Obj_Fade_Death","path":"objects/Obj_Fade_Death/Obj_Fade_Death.yy",},},
+    {"id":{"name":"Obj_Fade_FinalDeath","path":"objects/Obj_Fade_FinalDeath/Obj_Fade_FinalDeath.yy",},},
     {"id":{"name":"Obj_Fade_Lance","path":"objects/Obj_Fade_Lance/Obj_Fade_Lance.yy",},},
     {"id":{"name":"Obj_Fade","path":"objects/Obj_Fade/Obj_Fade.yy",},},
     {"id":{"name":"Obj_Game","path":"objects/Obj_Game/Obj_Game.yy",},},
