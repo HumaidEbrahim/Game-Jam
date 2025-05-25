@@ -11,8 +11,16 @@ if hp > global.maxHp{
 	hp = global.maxHp;
 }
 
+// Death
 if (hp <= 0){
-	game_restart()	
+	if (!instance_exists(Obj_Fade_Death)) {
+	instance_create_layer(0, 0, "Instances", Obj_Fade_Death)
+	// reset
+	hp = 100;
+	global.maxHp = 100;
+	equip_weapon(Obj_weapon_pistol)
+	global.corruption =0
+}
 }
 #region
 	var _horizontal = rightKey - leftKey;
