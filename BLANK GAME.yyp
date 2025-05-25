@@ -77,7 +77,6 @@
     {"id":{"name":"Obj_Game","path":"objects/Obj_Game/Obj_Game.yy",},},
     {"id":{"name":"Obj_healthDrop","path":"objects/Obj_healthDrop/Obj_healthDrop.yy",},},
     {"id":{"name":"Obj_healthUpgrade","path":"objects/Obj_healthUpgrade/Obj_healthUpgrade.yy",},},
-    {"id":{"name":"Obj_HUD","path":"objects/Obj_HUD/Obj_HUD.yy",},},
     {"id":{"name":"Obj_lightning","path":"objects/Obj_lightning/Obj_lightning.yy",},},
     {"id":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},},
     {"id":{"name":"Obj_Server","path":"objects/Obj_Server/Obj_Server.yy",},},

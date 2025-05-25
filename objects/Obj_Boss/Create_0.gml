@@ -1,6 +1,7 @@
 // Inherit the parent event
 event_inherited();
 hp = hp + 2500
+max_hp = 2500
 damage = damage + 25
 shootTimer = 0
 shootCooldown = 500
