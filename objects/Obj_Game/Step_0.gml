@@ -10,6 +10,7 @@ if global.corruption >= global.maxCorruption {
 		if global.maxHp > 50 {
 		global.maxHp = 50;
 		}
+		room_goto(Room1_1)
 		
 }
 
