@@ -1,3 +1,4 @@
+draw_self()
 draw_set_font(Font_UI);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
