@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_gunEnemy",
-    "path":"sprites/spr_gunEnemy/spr_gunEnemy.yy",
+    "name":"spr_gunEnemyScreen",
+    "path":"sprites/spr_gunEnemyScreen/spr_gunEnemyScreen.yy",
   },
   "spriteMaskId":null,
   "visible":true,

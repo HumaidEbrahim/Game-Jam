@@ -28,7 +28,7 @@ draw_rectangle(hp_x1, hp_y1- 25, hp_x1 + (bar_width * hp_percent) + 100 , hp_y2,
 draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
 draw_set_color(c_white);
-draw_text(hp_x1 + 10, (hp_y1 + hp_y2) / 2, "HP: " + string(hp) + " / " + string(global.maxHp));
+draw_text(hp_x1 + 20, (hp_y1 + hp_y2) / 2 - 10, "HP: " + string(hp) + " / " + string(global.maxHp));
 
 // === Corruption Background ===
 draw_set_color(c_black);
