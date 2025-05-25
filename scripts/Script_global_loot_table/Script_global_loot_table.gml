@@ -1,11 +1,12 @@
 global.loot_table = [
-		{item: Obj_weapon_weapon1, weight:50},
-		{item: Obj_weapon_laserADM, weight:50},
-		{item: Obj_weapon_nrzRifle, weight:50},
-		{item: Obj_weapon_shotgun, weight:50},
-		{item: Obj_weapon_pistol, weight:50},
+		{item: Obj_weapon_weapon1, weight:30},
+		{item: Obj_weapon_laserADM, weight:30},
+		{item: Obj_weapon_nrzRifle, weight:30},
+		{item: Obj_weapon_shotgun, weight:30},
+		{item: Obj_weapon_pistol, weight:30},
 		{item: Obj_healthDrop, weight:50},
-		{item: Obj_healthUpgrade, weight:50}
+		{item: Obj_healthUpgrade, weight:40},
+		{item: Obj_serverHeal, weight:20}
 	]
 
 function scr_loot_drop_random(_loot_table) {

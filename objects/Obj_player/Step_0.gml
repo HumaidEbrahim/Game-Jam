@@ -27,10 +27,10 @@ if (hp <= 0){
 	xSpeed = lengthdir_x(_speed, moveDir);
 	ySpeed = lengthdir_y(_speed, moveDir);
 
-	if place_meeting(x + xSpeed, y, Obj_wall){
+	if place_meeting(x + xSpeed, y, Obj_wall) || place_meeting(x + xSpeed, y, Object_wall_solid){
 			xSpeed = 0;
 		}
-	if place_meeting(x, y + ySpeed, Obj_wall){
+	if place_meeting(x, y + ySpeed, Obj_wall) || place_meeting(x, y + ySpeed, Object_wall_solid){
 			ySpeed = 0;
 		}
 		
