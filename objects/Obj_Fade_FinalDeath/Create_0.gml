@@ -1,6 +1,6 @@
 // Inherit the parent event
 event_inherited();
+img_background = BG_Fade
 
-damage = 8;
-speed = 4;
-knockback = 2;
+
+

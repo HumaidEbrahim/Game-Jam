@@ -1,6 +1,4 @@
 // Inherit the parent event
 event_inherited();
-
-damage = 8;
-speed = 4;
-knockback = 2;
+font = Font_UI_Header
+text_input = ("Credits")

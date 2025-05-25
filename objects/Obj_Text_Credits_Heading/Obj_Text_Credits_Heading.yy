@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_serverFTP",
+  "%Name":"Obj_Text_Credits_Heading",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_serverFTP",
+  "name":"Obj_Text_Credits_Heading",
   "overriddenProperties":[],
   "parent":{
-    "name":"Server",
-    "path":"folders/Objects/Server.yy",
+    "name":"UI",
+    "path":"folders/Objects/UI.yy",
   },
   "parentObjectId":{
-    "name":"Obj_Server",
-    "path":"objects/Obj_Server/Obj_Server.yy",
+    "name":"Obj_Text",
+    "path":"objects/Obj_Text/Obj_Text.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -31,11 +31,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"ServerFTP_Main_01",
-    "path":"sprites/ServerFTP_Main_01/ServerFTP_Main_01.yy",
-  },
+  "solid":false,
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

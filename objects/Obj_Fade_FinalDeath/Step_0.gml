@@ -8,8 +8,16 @@ if (fading_out) {
             room_restart()
 			
         } else {
-            room_goto(target_room)
+            room_goto(target_room);
+			with(Obj_player){
+				x = 860;
+				y = 348;
+				hp = 100;
+			}
+	}
         }
     }
-}
+
+
+
 
