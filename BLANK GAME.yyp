@@ -102,6 +102,7 @@
     {"id":{"name":"Obj_wall","path":"objects/Obj_wall/Obj_wall.yy",},},
     {"id":{"name":"Obj_Warning_Marker","path":"objects/Obj_Warning_Marker/Obj_Warning_Marker.yy",},},
     {"id":{"name":"Obj_weapon_laserADM","path":"objects/Obj_weapon_laserADM/Obj_weapon_laserADM.yy",},},
+    {"id":{"name":"Obj_weapon_mielie","path":"objects/Obj_weapon_mielie/Obj_weapon_mielie.yy",},},
     {"id":{"name":"Obj_weapon_nrzRifle","path":"objects/Obj_weapon_nrzRifle/Obj_weapon_nrzRifle.yy",},},
     {"id":{"name":"Obj_weapon_pistol","path":"objects/Obj_weapon_pistol/Obj_weapon_pistol.yy",},},
     {"id":{"name":"Obj_weapon_shotgun","path":"objects/Obj_weapon_shotgun/Obj_weapon_shotgun.yy",},},
