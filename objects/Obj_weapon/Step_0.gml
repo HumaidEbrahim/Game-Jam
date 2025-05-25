@@ -28,3 +28,12 @@ image_angle = aimDir;
 if owner != noone && shootTimer > 0 {
 	shootTimer--;
 }
+
+if owner == noone {
+	if despawnTimer > 0{
+	despawnTimer--;
+	if despawnTimer <= 0 {
+		instance_destroy();	
+	}
+}	
+}

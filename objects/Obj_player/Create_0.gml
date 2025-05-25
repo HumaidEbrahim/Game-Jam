@@ -8,6 +8,12 @@ equipKey = 0;
 hp = 100;
 global.maxHp = 100;
  
+ //State Variables
+damage_flash_timer = 0;
+knockback_timer = 0;
+ 
+ 
+ 
  //Current equiped weapon
 currentWeapon = noone;
 // Equips default weapon
@@ -18,7 +24,7 @@ centerY = 0;
 aimDir = 0;
  
 //Sprite animations to be stored
-face = 3;
+face = 7;
 sprite[0] = RunRight;
 sprite[1] = RunBack;
 sprite[2] = RunLeft_1;
