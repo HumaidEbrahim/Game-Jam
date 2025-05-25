@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Script_StringWrap",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Script_StringWrap",
+  "parent":{
+    "name":"UI",
+    "path":"folders/Objects/UI.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
