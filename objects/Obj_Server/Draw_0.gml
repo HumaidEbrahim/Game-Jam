@@ -8,7 +8,7 @@ draw_text(x, y, string(hp));
 var dist = point_distance(x, y, Obj_player.x, Obj_player.y);
 
 // Pickup radius
-var radius = 128;
+var radius = 96;
 
 // Check if within range
 if (dist < radius) {
