@@ -62,8 +62,8 @@ function lightningStrike(){
 	var strikes = 10;
 
 	for (var i = 0; i < strikes; i++){
-		var xx = random(room_width);
-		var yy = random(room_height);
+		var xx = random(room_width-400);
+		var yy = random(room_height-200);
 
 		instance_create_layer(xx, yy, "Instances", Obj_Warning_Marker);
 	}
