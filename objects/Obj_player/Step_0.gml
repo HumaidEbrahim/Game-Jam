@@ -12,16 +12,32 @@ if hp > global.maxHp{
 }
 
 // Death
-if (hp <= 0){
-	if (!instance_exists(Obj_Fade_Death)) {
-	instance_create_layer(0, 0, "Instances", Obj_Fade_Death)
-	// reset
-	hp = 100;
-	global.maxHp = 100;
-	equip_weapon(Obj_weapon_pistol)
-	global.corruption =0
+if (hp <= 0) 
+{
+ 
+
+    if ((room == Room1) && (!instance_exists(Obj_Fade_Death)))
+    {
+        instance_create_layer(0, 0, "Instances", Obj_Fade_Death);
+		 // reset
+		    hp = 100;
+		    global.maxHp = 100;
+		    equip_weapon(Obj_weapon_pistol);
+		    global.corruption = 0;
+    }
+
+    if ((room == Room1_1) && (!instance_exists(Obj_Fade_FinalDeath)))
+    {
+        instance_create_layer(0, 0, "Instances", Obj_Fade_FinalDeath);
+		 // reset
+		    hp = 100;
+		    global.maxHp = 100;
+		    equip_weapon(Obj_weapon_pistol);
+		    global.corruption = 0;
+    }
 }
-}
+
+	
 #region
 	var _horizontal = rightKey - leftKey;
 	var _vertical = downKey - upKey;
