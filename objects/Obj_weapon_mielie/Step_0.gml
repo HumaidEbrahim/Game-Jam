@@ -9,5 +9,13 @@ if useWeapon && shootTimer <= 0
 	with(_bullet){
 		direction = mouseTrack();
 	}
+	if flipflop{
+		flipflop = false
+		audio_play_sound(mie,1,false);
+	}
+	else if !flipflop{
+		flipflop = true;
+		audio_play_sound(lie,2,false);
+	}
 	
 }

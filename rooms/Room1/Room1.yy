@@ -26,7 +26,6 @@
     {"name":"inst_4C70AAF3","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_3C63AE2A","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_4C40CF9E","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_7B706F46","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -54,7 +53,6 @@
         {"$GMRInstance":"v2","%Name":"inst_4C70AAF3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4C70AAF3","objectId":{"name":"Object_wall_solid","path":"objects/Object_wall_solid/Object_wall_solid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.078125,"scaleY":1.8281251,"x":1917.2656,"y":1019.6719,},
         {"$GMRInstance":"v2","%Name":"inst_3C63AE2A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3C63AE2A","objectId":{"name":"Object_wall_solid","path":"objects/Object_wall_solid/Object_wall_solid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.7671595,"scaleY":0.046875,"x":1858.1494,"y":1079.4531,},
         {"$GMRInstance":"v2","%Name":"inst_4C40CF9E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4C40CF9E","objectId":{"name":"Obj_petSlime","path":"objects/Obj_petSlime/Obj_petSlime.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":800.0,"y":384.0,},
-        {"$GMRInstance":"v2","%Name":"inst_7B706F46","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7B706F46","objectId":{"name":"Obj_weapon_mielie","path":"objects/Obj_weapon_mielie/Obj_weapon_mielie.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":416.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"MapTest06","path":"sprites/MapTest06/MapTest06.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
