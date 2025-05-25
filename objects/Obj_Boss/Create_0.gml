@@ -21,9 +21,6 @@ dash_speed = 15;
 dashing = false;
 
 
-
-
-
 function attack360() {
     var numDirections = 8;
     var bulletsPerDirection = 4;
@@ -70,6 +67,11 @@ function lightningStrike(){
 }
 
 function summon(){
+	var spawn = 5
+	for (var i = 0; i < spawn; i++){
+		var xx = random(room_width-400);
+		var yy = random(room_height-200);
+		instance_create_layer(xx, yy, "Instances", Obj_enemy_playerenemy_enemy1);
 	
 }
 
@@ -78,3 +80,4 @@ function dash(){
 }
 
 
+}

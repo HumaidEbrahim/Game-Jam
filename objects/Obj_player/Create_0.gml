@@ -47,4 +47,5 @@ function equip_weapon(weapon_object){
 	currentWeapon.owner = id;
 	currentWeapon.equipped = true;
 	currentWeapon.mask_index = -1;
+	currentWeapon.image_index = 1;
 }

@@ -10,7 +10,7 @@ if (shootTimer <= 0) {
     shootTimer = shootCooldown;
 	
 	
-   var randnum = irandom(2); // 0 or 1 or 2
+   var randnum = irandom(3); // 0 or 1 or 2
 
     switch (randnum) {
         case 0:
@@ -27,6 +27,9 @@ if (shootTimer <= 0) {
 			else{
 				attack360()
 			}
+			break
+		case 3:
+			summon()
 			break
     }
 }

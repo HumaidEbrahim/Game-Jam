@@ -3,6 +3,7 @@ var leftKey = keyboard_check(ord("A"));
 var upKey = keyboard_check(ord("W"));
 var downKey = keyboard_check(ord("S"));
 equipKey = keyboard_check_pressed(ord("E"));
+currentWeapon.image_index = 0;
 mask_index = sprite[7];
 
 
@@ -26,10 +27,10 @@ if (hp <= 0){
 	xSpeed = lengthdir_x(_speed, moveDir);
 	ySpeed = lengthdir_y(_speed, moveDir);
 
-	if place_meeting(x + xSpeed, y, Obj_wall) || place_meeting(x + xSpeed, y, Object_wall_solid){
+	if place_meeting(x + xSpeed, y, Obj_wall){
 			xSpeed = 0;
 		}
-	if place_meeting(x, y + ySpeed, Obj_wall) || place_meeting(x, y + ySpeed, Object_wall_solid){
+	if place_meeting(x, y + ySpeed, Obj_wall){
 			ySpeed = 0;
 		}
 		
