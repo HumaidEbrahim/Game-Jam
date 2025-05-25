@@ -1,7 +1,7 @@
 global.tickTimer = 0;
 
 //okay this is where ima create all my variables for my wave spawning
-
+audio_stop_sound(GJMenu);
 wave = false;
 timer = 0;
 spawnTime = 6*40;

@@ -1,7 +1,7 @@
 // Inherit the parent event
 event_inherited();
 
-hp = hp + 20
-damage = damage + 2;
-moveSpd = 2.5;
+hp = hp + 16
+damage = damage + 3;
+moveSpd = 2.25;
 
