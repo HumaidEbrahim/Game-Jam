@@ -166,6 +166,7 @@
     {"id":{"name":"ServerWeb_Mask","path":"sprites/ServerWeb_Mask/ServerWeb_Mask.yy",},},
     {"id":{"name":"ShotGun_Ball","path":"sprites/ShotGun_Ball/ShotGun_Ball.yy",},},
     {"id":{"name":"Shotgun","path":"sprites/Shotgun/Shotgun.yy",},},
+    {"id":{"name":"spr_boss_prejump","path":"sprites/spr_boss_prejump/spr_boss_prejump.yy",},},
     {"id":{"name":"spr_boss_sprite","path":"sprites/spr_boss_sprite/spr_boss_sprite.yy",},},
     {"id":{"name":"spr_Boss","path":"sprites/spr_Boss/spr_Boss.yy",},},
     {"id":{"name":"spr_bossLaser","path":"sprites/spr_bossLaser/spr_bossLaser.yy",},},
