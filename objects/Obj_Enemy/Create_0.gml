@@ -1,4 +1,4 @@
-global.dropRate = 30;
+global.dropRate = 10;
 hp = 0
 moveSpd = 0;
 xSpeed = 0

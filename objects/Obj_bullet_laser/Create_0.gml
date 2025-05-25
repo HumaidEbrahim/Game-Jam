@@ -2,3 +2,4 @@
 event_inherited();
 speed = 7;
 damage = 3;
+knockback = 1;
