@@ -59,44 +59,69 @@ if shootTimer > 0
 {
 	shootTimer--
 }
+
+if dashtimer > 0
+{
+	dashtimer--
+}
 	
 if (shootTimer <= 0) {
     shootTimer = shootCooldown;
 	
-	
-   var randnum = irandom(3); // 0 or 1 or 2
+	var randnum = irandom(3); // Should be 0 to 4 for 5 total cases
 
-    switch (randnum) {
-        case 0:
-            lightningStrike();
-            break;
-        case 1:
-            attack360();
-            break;
-		case 2:
-			if hp <= 2225{
-				bossJumpAttack()
+	switch (randnum) {
+	    case 0:
+	        lightningStrike();
+	        break;
+	    case 1:
+	        attack360();
+	        break;
+	    case 2:
+	        if (hp <= 2225) bossJumpAttack();
+	        else attack360();
+	        break;
+	    case 3:
+	        if (hp <= 1250) {
+	            summon();
+	            lightningStrike();
 				
-			}
-			else{
-				attack360()
-			}
-			break
-		case 3:
-			if hp <= 1250{
-				summon()
-				lightningStrike();
-				
-			}
-			else{
-				summon()
-			}
-			break
-			
-			
-    }
+	        } else {
+	            summon();
+	        }
+	        break;
+	    
+} //
 }
 
+if (dashtimer <= 0) {
+    dashtimer = dashCooldown;
+// Only dash if player is farther than 300 pixels
+	        if (hp <= 2000) {
+				var minDistance = 300
+	            var dist_to_player = point_distance(x, y, Obj_player.x, Obj_player.y);
+	            if (dist_to_player > minDistance) {
+	                dash();
+	            } else {
+	                attack360(); // fallback if player is close
+	            }
+	        } else {
+	            attack360();
+	        }
+}
+
+
+//50 percent health
+if (!triggered_50percent && hp <= 1250) {
+    shootCooldown = 300
+	summon();
+	for (var i = 0; i < 2; i++){
+		lightningStrike()
+		}
+    triggered_50percent = true;
+    shootTimer = shootCooldown; // Delay next attack after this
+    return; // Skip rest of logic this frame
+}
 
 //Jump Step code
 if (jumping) {
@@ -124,11 +149,40 @@ if (jumping) {
 				image_speed = 1;
                 jumping = false;
                 jumpState = 0;
-				moveSpd = 2
+				moveSpd = 1
 				
 				attack360();
             }
             break;
     }
 }
+
+if (dashing) {
+    // During dash
+    var dx = lengthdir_x(dash_speed, moveDir);
+    var dy = lengthdir_y(dash_speed, moveDir);
+
+    if (!place_meeting(x + dx, y + dy, Obj_wall)) {
+        x += dx;
+        y += dy;
+    } else {
+        // Cancel dash if hitting wall
+        dashing = false;
+        dash_time = 0;
+    }
+
+    dash_time--;
+
+    if (dash_time <= 0) {
+        dashing = false;
+    }
+} else {
+    // Normal movement
+    xSpeed = lengthdir_x(moveSpd, moveDir);
+    ySpeed = lengthdir_y(moveSpd, moveDir);
+    x += xSpeed;
+    y += ySpeed;
+}
+
+
 
