@@ -5,7 +5,7 @@ xSpeed = 0;
 ySpeed = 0;
 equipKey = 0;
 //Stat variables
-hp = 10;
+hp = 100;
 global.maxHp = 100;
  //State Variables
 damage_flash_timer = 0;
