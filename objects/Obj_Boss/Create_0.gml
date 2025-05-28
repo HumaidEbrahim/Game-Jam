@@ -55,7 +55,7 @@ function bossJumpAttack() {
 	    image_index = 0;
 	    image_speed = 0.5;
 		moveSpd = 0
-		
+		dash_timer = 300 //prevent dash mid jump
 		
         jumping = true;
         jumpState = -1;          // Pre-jump delay

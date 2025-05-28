@@ -96,19 +96,20 @@ if (shootTimer <= 0) {
 
 if (dashtimer <= 0) {
     dashtimer = dashCooldown;
-// Only dash if player is farther than 300 pixels
-	        if (hp <= 2000) {
-				var minDistance = 300
-	            var dist_to_player = point_distance(x, y, Obj_player.x, Obj_player.y);
-	            if (dist_to_player > minDistance) {
-	                dash();
-	            } else {
-	                attack360(); // fallback if player is close
-	            }
-	        } else {
-	            attack360();
-	        }
+
+    // Only dash if player is farther than 300 pixels
+    if (hp <= 2000) {
+        var minDistance = 300;
+        var dist_to_player = point_distance(x, y, Obj_player.x, Obj_player.y);
+
+        if (dist_to_player > minDistance) {
+            dash(); // Initiate dash
+        }
+        // else: do nothing
+    }
+    // else: do nothing
 }
+
 
 
 //50 percent health

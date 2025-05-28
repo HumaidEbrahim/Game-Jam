@@ -1,8 +1,13 @@
 var spawn = 5;
+var radius = 400;
 
 for (var i = 0; i < spawn; i++) {
-    var xx = random(room_width - 400);
-    var yy = random(room_height - 200);
+    var angle = random(360);
+    var dist = random(radius);
+    
+    var xx = x + lengthdir_x(dist, angle);
+    var yy = y + lengthdir_y(dist, angle);
+
     instance_create_layer(xx, yy, "Instances", Obj_enemy_playerenemy_enemy1);
 }
 
