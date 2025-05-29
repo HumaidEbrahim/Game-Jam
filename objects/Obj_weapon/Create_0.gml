@@ -1,5 +1,4 @@
 global.baseCooldown = 0;
-useWeapon = false;
 shootTimer = 0;
 shootCooldown = 0;
 owner = noone;
@@ -9,3 +8,7 @@ equipped = false;
 shootDuration = 0;
 despawnTimer = 1800;
 sound = 0;
+useWeapon1 = 0;
+useWeapon2 = 0;
+useWeapon3 = 0;
+useWeapon4 = 0;

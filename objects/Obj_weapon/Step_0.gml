@@ -1,5 +1,8 @@
 if equipped{
-useWeapon = mouse_check_button(mb_left);
+useWeapon1 = keyboard_check(ord("D"));
+useWeapon2 = keyboard_check(ord("A"));
+useWeapon3 = keyboard_check(ord("W"));
+useWeapon4 = keyboard_check(ord("S"));
 centerY = y + global.centerYOffset;
 
 if(instance_exists(owner)){
@@ -10,13 +13,14 @@ if(instance_exists(owner)){
 aimDir = mouseTrack();
 var _weaponYScale = 1;
 image_yscale = _weaponYScale;
-if aimDir > 90 && aimDir < 270
+var angle = ((aimDir mod 360) + 360) mod 360;
+if (angle > 90 && angle < 270) || (aimDir < -90 && aimDir > -270)
 {
 	_weaponYScale = -1;
 	image_yscale = _weaponYScale;
 }
 if aimDir >= 45 && aimDir <= 135{
-	depth = 100
+	depth = 100;
 }
 else{
 	depth = -1	
