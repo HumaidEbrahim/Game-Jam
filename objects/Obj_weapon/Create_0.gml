@@ -1,0 +1,14 @@
+global.baseCooldown = 0;
+shootTimer = 0;
+shootCooldown = 0;
+owner = noone;
+aimDir = 0;
+centerY = 0;
+equipped = false;
+shootDuration = 0;
+despawnTimer = 1800;
+sound = 0;
+useWeapon1 = 0;
+useWeapon2 = 0;
+useWeapon3 = 0;
+useWeapon4 = 0;

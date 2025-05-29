@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Corruption",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Corruption",
+  "parent":{
+    "name":"Objects",
+    "path":"folders/Objects.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
