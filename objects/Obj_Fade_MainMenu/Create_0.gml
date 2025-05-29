@@ -1,4 +1,6 @@
 // Inherit the parent event
 event_inherited();
 
-room_goto(Room_Help)
+target_room = Room_MainMenu
+
+

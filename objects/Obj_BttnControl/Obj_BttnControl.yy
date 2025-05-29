@@ -1,21 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Button_Play",
+  "%Name":"Obj_BttnControl",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Button_Play",
+  "name":"Obj_BttnControl",
   "overriddenProperties":[],
   "parent":{
     "name":"UI",
     "path":"folders/Objects/UI.yy",
   },
-  "parentObjectId":{
-    "name":"Obj_Button",
-    "path":"objects/Obj_Button/Obj_Button.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,16 +27,11 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"bttn_text","filters":[],"listItems":[],"multiselect":false,"name":"bttn_text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Button_Play",
-    "path":"sprites/Button_Play/Button_Play.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
