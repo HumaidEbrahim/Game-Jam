@@ -19,7 +19,7 @@ text[5] = ""
 
 
 
-text_last = 4;
+text_last = 5;
 
 fadeto = Obj_Fade_MainMenu
 
