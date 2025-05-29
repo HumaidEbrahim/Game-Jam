@@ -1,5 +1,5 @@
 // Inherit the parent event
-if hp <= 0
+if hp <= 2499
 {
 	instance_destroy()
 }

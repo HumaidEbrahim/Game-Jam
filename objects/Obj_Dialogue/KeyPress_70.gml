@@ -6,9 +6,10 @@ if (char_current < _len)
 else
     {
     text_current += 1;
-    if (text_current > text_last)
+    if (text_current >= text_last)
         {
-        room_restart();
+        instance_create_layer(0, 0, "Instances", fadeto);
+
         }
     else
         {

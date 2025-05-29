@@ -1,20 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Text_Help",
+  "%Name":"Obj_Fade_MainMenu",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":70,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Text_Help",
+  "name":"Obj_Fade_MainMenu",
   "overriddenProperties":[],
   "parent":{
     "name":"UI",
     "path":"folders/Objects/UI.yy",
   },
   "parentObjectId":{
-    "name":"Obj_Text",
-    "path":"objects/Obj_Text/Obj_Text.yy",
+    "name":"Obj_Fade",
+    "path":"objects/Obj_Fade/Obj_Fade.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
