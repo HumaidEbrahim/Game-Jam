@@ -19,7 +19,7 @@ if (angle > 90 && angle < 270) || (aimDir < -90 && aimDir > -270)
 	_weaponYScale = -1;
 	image_yscale = _weaponYScale;
 }
-if aimDir >= 45 && aimDir <= 135{
+if (angle >= 45 && angle <= 135) || (aimDir <= -45 && aimDir >= -135){
 	depth = 100;
 }
 else{
