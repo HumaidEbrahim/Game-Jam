@@ -1,5 +1,4 @@
 // Inherit the parent event
 event_inherited();
-speed = 5;
-damage = 8;
-knockback = 2;
+
+instance_destroy(other);
