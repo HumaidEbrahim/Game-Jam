@@ -47,7 +47,7 @@ draw_text(corrupt_x1 + 10, (corrupt_y1 + corrupt_y2) / 2, "Corruption: " + strin
 // ==DrawGUI
 
 
-var highscore_text = "High Score: " + string(global.highscore);
+var highscore_text = "High Score: " + string(global.currenthighscore);
 var score_text = "Score: " + string(global.score);
 
 
