@@ -26,7 +26,7 @@ else{
 	depth = -1	
 }
 
-image_angle = aimDir;
+image_angle = angle;
 
 }
 if owner != noone && shootTimer > 0 {

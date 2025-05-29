@@ -8,7 +8,7 @@ var xdir = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var ydir = keyboard_check(ord("S")) - keyboard_check(ord("W"));
     aimDir = point_direction(0, 0, xdir, ydir);
 	global.aim_direction = angle_lerp(global.aim_direction, aimDir, 0.2);
-	//global.aim_direction = ((global.aim_direction mod 360) + 360) mod 360
+	global.aim_direction = ((global.aim_direction mod 360) + 360) mod 360
 
 return global.aim_direction
 }
