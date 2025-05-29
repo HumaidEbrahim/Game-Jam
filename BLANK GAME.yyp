@@ -131,6 +131,7 @@
     {"id":{"name":"Room1_1","path":"rooms/Room1_1/Room1_1.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Corruption","path":"scripts/Corruption/Corruption.yy",},},
+    {"id":{"name":"Score_System","path":"scripts/Score_System/Score_System.yy",},},
     {"id":{"name":"Script_global_loot_table","path":"scripts/Script_global_loot_table/Script_global_loot_table.yy",},},
     {"id":{"name":"Script_StringWrap","path":"scripts/Script_StringWrap/Script_StringWrap.yy",},},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},

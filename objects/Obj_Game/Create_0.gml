@@ -1,3 +1,5 @@
+init_score();
+
 global.tickTimer = 0;
 
 //okay this is where ima create all my variables for my wave spawning
@@ -17,3 +19,6 @@ spawned_enemies = false;
 wave_timer = 0;
 wave_spawned = false;
 time_between_waves = 60;
+
+create_highscore()
+

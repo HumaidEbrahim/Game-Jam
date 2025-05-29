@@ -1,3 +1,6 @@
+//score safeguard
+if (!variable_global_exists("score")) init_score();
+
 //Movement Variables
 moveDir = 0;
 moveSpd = 3;
@@ -48,3 +51,5 @@ function equip_weapon(weapon_object){
 	currentWeapon.mask_index = -1;
 	currentWeapon.image_index = 1;
 }
+
+

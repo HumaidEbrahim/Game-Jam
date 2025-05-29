@@ -10,3 +10,6 @@ attack_cooldown = 0;
 can_attack_server = 0;
 cooldown_max = 0;
 
+score_value = 10;  // For enemy server flying
+
+
