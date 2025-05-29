@@ -1,4 +1,6 @@
+
 init_score();
+create_highscore(); 
 
 global.tickTimer = 0;
 
@@ -20,5 +22,5 @@ wave_timer = 0;
 wave_spawned = false;
 time_between_waves = 60;
 
-create_highscore()
+
 
