@@ -2,7 +2,7 @@ var rightKey = keyboard_check(vk_right);
 var leftKey = keyboard_check(vk_left);
 var upKey = keyboard_check(vk_up);
 var downKey = keyboard_check(vk_down);
-equipKey = keyboard_check_pressed(ord("E"));
+equipKey = keyboard_check_pressed(ord("F"));
 mask_index = sprite[7];
 
 

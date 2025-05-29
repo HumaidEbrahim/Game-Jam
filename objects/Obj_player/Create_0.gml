@@ -16,7 +16,7 @@ knockback_timer = 0;
  //Current equiped weapon
 currentWeapon = noone;
 // Equips default weapon
-equip_weapon(Obj_weapon_shotgun)
+equip_weapon(Obj_weapon_pistol)
 //Center offsets
 centerY = 0;
 //Aiming direction
