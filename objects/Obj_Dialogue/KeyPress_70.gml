@@ -1,4 +1,6 @@
-var _len = string_length(text[text_current]);
+if text_current < text_last
+{
+	var _len = string_length(text[text_current]);
 if (char_current < _len)
     {
     char_current = _len;
@@ -17,3 +19,5 @@ else
         char_current = 0;
         }
     }
+}
+

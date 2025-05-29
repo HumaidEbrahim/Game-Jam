@@ -51,6 +51,7 @@
   "resources":[
     {"id":{"name":"Font_Default","path":"fonts/Font_Default/Font_Default.yy",},},
     {"id":{"name":"Font_UI_Header","path":"fonts/Font_UI_Header/Font_UI_Header.yy",},},
+    {"id":{"name":"Font_UI_Small","path":"fonts/Font_UI_Small/Font_UI_Small.yy",},},
     {"id":{"name":"Font_UI","path":"fonts/Font_UI/Font_UI.yy",},},
     {"id":{"name":"Obj_Boss","path":"objects/Obj_Boss/Obj_Boss.yy",},},
     {"id":{"name":"Obj_bossGame","path":"objects/Obj_bossGame/Obj_bossGame.yy",},},
