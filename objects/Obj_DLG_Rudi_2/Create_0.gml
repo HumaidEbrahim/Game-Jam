@@ -5,8 +5,12 @@ text[0] = ""
 text[1] = "Congratulations on fixing your mess"
 text[2] = "As your reward..."
 text[3] = "YOU'RE FIRED!"
+text[4] = ""
 
 
 
-text_last = 3;
+
+text_last = 4;
+
+fadeto = Obj_Fade_MainMenu
 

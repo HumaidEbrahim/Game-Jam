@@ -1,12 +1,12 @@
 // Inherit the parent event
 event_inherited();
 
-text[0] = ""
-text[1] = "HAHAHAHAHAH"
-text[2] = "You think you can defeat me??"
-text[3] = ""
+
+text[0] = "HAHAHAHAHAH"
+text[1] = "You think you can defeat me??"
+text[2] = ""
 
 
 
-text_last = 3;
-
+text_last = 2;
+fadeto = Obj_Fade_Attack
