@@ -1,2 +1,2 @@
-text_input = "Press Enter"
+text_input = "Press Right Green"
 font = Font_UI

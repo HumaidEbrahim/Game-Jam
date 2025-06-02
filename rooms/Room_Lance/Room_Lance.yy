@@ -6,7 +6,6 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_7E837546_1","path":"rooms/Room_Lance/Room_Lance.yy",},
     {"name":"inst_2DA4B60A_1","path":"rooms/Room_Lance/Room_Lance.yy",},
     {"name":"inst_2418BB77_1","path":"rooms/Room_Lance/Room_Lance.yy",},
   ],
@@ -16,7 +15,6 @@
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_3FECF035","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_3FECF035","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":2.8285713,"scaleY":2.75,"spriteId":{"name":"spr_Boss","path":"sprites/spr_Boss/spr_Boss.yy",},"x":576.0,"y":576.0,},
       ],"depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_1","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v2","%Name":"inst_7E837546_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7E837546_1","objectId":{"name":"Obj_Button_Attack","path":"objects/Obj_Button_Attack/Obj_Button_Attack.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":1.5,"x":1152.0,"y":688.0,},
         {"$GMRInstance":"v2","%Name":"inst_2DA4B60A_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2DA4B60A_1","objectId":{"name":"Obj_DLG_Lance","path":"objects/Obj_DLG_Lance/Obj_DLG_Lance.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.5,"scaleY":1.0,"x":576.0,"y":672.0,},
         {"$GMRInstance":"v2","%Name":"inst_2418BB77_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2418BB77_1","objectId":{"name":"Obj_Text_Pressenter","path":"objects/Obj_Text_Pressenter/Obj_Text_Pressenter.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":687.0,"y":18.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},

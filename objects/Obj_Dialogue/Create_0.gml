@@ -12,3 +12,5 @@ char_current = 1;
 char_speed = 0.25;
 
 text[text_current] = string_wrap(text[text_current], text_width)
+
+fadeto = Obj_Fade
