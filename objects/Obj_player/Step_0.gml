@@ -23,6 +23,7 @@ if (hp <= 0)
 		    global.maxHp = 100;
 		    equip_weapon(Obj_weapon_pistol);
 		    global.corruption = 0;
+			 reset_score()
     }
 
     if ((room == Room1_1) && (!instance_exists(Obj_Fade_FinalDeath)))
@@ -33,6 +34,8 @@ if (hp <= 0)
 		    global.maxHp = 100;
 		    equip_weapon(Obj_weapon_pistol);
 		    global.corruption = 0;
+			
+			 reset_score()
     }
 }
 
@@ -127,3 +130,4 @@ else{
 sprite_index = sprite[face]	
 }
 #endregion
+

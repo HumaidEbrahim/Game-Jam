@@ -7,4 +7,4 @@ shootTimer = 0
 shootCooldown = 50
 moveSpd = 0.5
 
-
+score_value = 10;  // For enemy shooting

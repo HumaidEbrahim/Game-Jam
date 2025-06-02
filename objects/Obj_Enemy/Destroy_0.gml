@@ -6,3 +6,5 @@ if (random(100) < global.dropRate) { // 50% chance to drop something
 }
 
 effect_create_depth(10,ef_cloud,x,y,0.5,c_green);
+
+addcheck_score(score_value); 
