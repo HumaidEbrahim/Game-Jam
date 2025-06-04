@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Button_Transparent",
-    "path":"sprites/Button_Transparent/Button_Transparent.yy",
+    "name":"Button_Play",
+    "path":"sprites/Button_Play/Button_Play.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,3 +1,5 @@
+score_value = 0; 
+
 global.dropRate = 10;
 hp = 0
 moveSpd = 0;

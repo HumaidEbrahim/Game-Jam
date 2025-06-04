@@ -1,8 +1,8 @@
-var rightKey = keyboard_check(ord("D"));
-var leftKey = keyboard_check(ord("A"));
-var upKey = keyboard_check(ord("W"));
-var downKey = keyboard_check(ord("S"));
-equipKey = keyboard_check_pressed(ord("E"));
+var rightKey = keyboard_check(vk_right);
+var leftKey = keyboard_check(vk_left);
+var upKey = keyboard_check(vk_up);
+var downKey = keyboard_check(vk_down);
+equipKey = keyboard_check_pressed(ord("F"));
 mask_index = sprite[7];
 
 
@@ -23,6 +23,7 @@ if (hp <= 0)
 		    global.maxHp = 100;
 		    equip_weapon(Obj_weapon_pistol);
 		    global.corruption = 0;
+			 reset_score()
     }
 
     if ((room == Room1_1) && (!instance_exists(Obj_Fade_FinalDeath)))
@@ -33,6 +34,8 @@ if (hp <= 0)
 		    global.maxHp = 100;
 		    equip_weapon(Obj_weapon_pistol);
 		    global.corruption = 0;
+			
+			 reset_score()
     }
 }
 
@@ -69,15 +72,45 @@ if (hp <= 0)
 	y += ySpeed;
 
 aimDir = mouseTrack();
+/*var xdir = keyboard_check(vk_right) - keyboard_check(vk_left);
+var ydir = keyboard_check(vk_down) - keyboard_check(vk_up);
+
+if (xdir != 0 || ydir != 0) {
+    aimDir = point_direction(0, 0, xdir, ydir);*/
 centerY = y + global.centerYOffset
 #endregion
 
 #region
+/*
 face = round(aimDir/90);
 if face == 4 
 {
 	face = 0
 };
+if face == -2 {
+	face = 2;
+}
+if face == -3 {
+	face = 3	
+}*/
+var normalized = ((aimDir + 45) + 360) mod 360;
+var face = floor(normalized / 90);
+if face == 4 
+{
+	face = 0
+};
+if face == -2 {
+	face = 2;
+}
+if face == -3 {
+	face = 3	
+}
+if face == -4 {
+	face = 3	
+}
+if face == -1 {
+	face = 1	
+}
 if xSpeed == 0 && ySpeed == 0
 {
 	if face == 0 {
@@ -97,3 +130,4 @@ else{
 sprite_index = sprite[face]	
 }
 #endregion
+

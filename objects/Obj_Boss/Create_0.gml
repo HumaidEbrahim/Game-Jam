@@ -1,15 +1,18 @@
 // Inherit the parent event
 event_inherited();
+
 hp = hp + 2500
 max_hp = 2500
 damage = damage + 25
-shootTimer = 0
+shootTimer = 60
 shootCooldown = 500
-moveSpd = 2
-moveSpd = 1.5;
+
+moveSpd = 1
 moveDir = 0;
 isWaiting = false;
 timer = 120
+triggered_50percent = false;
+isSummoning = false;
 //jump 
 jumping = false;
 jumpState = 0;
@@ -23,7 +26,9 @@ jumpFallSpeed = 15;
 //dash
 dash_speed = 15;
 dashing = false;
-
+dash_time = 0;
+dashtimer = 310
+dashCooldown = 640
 
 function attack360() {
     var numDirections = 8;
@@ -50,7 +55,7 @@ function bossJumpAttack() {
 	    image_index = 0;
 	    image_speed = 0.5;
 		moveSpd = 0
-		
+		dash_timer = 300 //prevent dash mid jump
 		
         jumping = true;
         jumpState = -1;          // Pre-jump delay
@@ -74,18 +79,27 @@ function lightningStrike(){
 	}
 }
 
-function summon(){
-	var spawn = 5
-	for (var i = 0; i < spawn; i++){
-		var xx = random(room_width-400);
-		var yy = random(room_height-200);
-		instance_create_layer(xx, yy, "Instances", Obj_enemy_playerenemy_enemy1);
-		
+function summon() {
+    if (!isSummoning) {
+        isSummoning = true;
+
+        // Pre-summon animation
+        sprite_index = spr_Boss_spell;
+        image_index = 0;
+        image_speed = 0.5;
+        moveSpd = 0;
+
+        // Wait 1 second (60 frames), then summon
+        alarm[3] = 60;
+    }
 }
 
-function dash(){
-	
+function dash() {
+    if (!dashing) {
+        dashing = true;
+        dash_time = 20; // dash duration (in frames)
+        moveDir = point_direction(x, y, Obj_player.x, Obj_player.y);
+    }
 }
 
 
-}
